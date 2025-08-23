@@ -1,0 +1,49 @@
+.registerSelect{
+    font-size: 16px;
+    font-weight: 600;
+}
+.ress input[type=radio] {
+    width: 70% !important;
+    height: 1.75rem;
+}
+@media only screen and (min-width:426px) and (max-width:1024px) {
+    .row div{
+        width: 60% !important;
+    }
+    .row div div.col-md-4{
+        width: 100% !important;
+    }
+    .row div div.p-5{
+        width: 100% !important;
+    }   
+    form button.btn{
+        width: 250px !important;
+    }
+    form{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxx{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:769px) {
+    .boxx{
+        margin-left: 160px;
+    }
+    .icon_box{
+        grid-template-columns: 1.7fr 1fr !important;
+    }
+}
+@media (max-width:426px){
+    .boxx{
+        margin-left: 20px;
+    }
+    
+}

@@ -1,0 +1,56 @@
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+.card1{
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 10px #1a8efd;
+    background: linear-gradient(to right, #7091E6, #FFFFFF);
+}
+.btn_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_submit{
+    border: none;
+    outline: none;
+    width: 25%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4caf50;
+}
+.btn_submit:hover{
+    background-color: #40a442;
+}
+.card1 div{
+    width: 100%;
+}
+.card1 h1{
+    font-size: 3rem;
+}
+.card1 p{
+    opacity: 0.8;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.card1 label{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+input[type=radio] {
+    width: 10%;
+    height: 1.5rem;
+}
+.para{
+    font-size: 18px !important;
+}
+.para p,.para p strong{
+    opacity: 0.7;
+}
+.para strong{
+    color: #1a8efd !important;
+}
