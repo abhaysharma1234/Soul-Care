@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 // mongoose.connect(process.env.MONGODB_URI);
 
 // MongoDB connection from atlas
-mongoose.connect("mongodb+srv://abhaysharma:abhay@cluster0.bfxaa.mongodb.net/SoulCare?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect(process.env.MongoDbUri);
 
 // Establishing connection to the database
 const db = mongoose.connection;
